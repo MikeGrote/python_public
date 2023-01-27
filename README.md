@@ -1,2 +1,2 @@
 # python_public
-Öffentliche Pythonscripte / Tools
+Public Python scripts / tools
