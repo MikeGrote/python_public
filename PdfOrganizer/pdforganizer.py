@@ -28,9 +28,9 @@ class PdfOrganizer:
                 new_filename = f"{creation_date.strftime('%Y%m%d')}_{filename}"
                 shutil.copy(filepath, os.path.join(dst_folder, new_filename))
 
-# Pfad zum ursprünglichen Ordner mit den PDF-Dateien
+# Path to the original folder with the PDF files
 src_folder = r"C:\temp"
-# Pfad zum Ziel Ordner
+# Path to the destination folder
 dst_root_folder = r"C:\temp"
 organizer = PdfOrganizer(src_folder, dst_root_folder)
 organizer.move_pdfs_by_creation_date()
